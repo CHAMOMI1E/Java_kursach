@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.artifact.Add_Controller">
+    <children>
+        <AnchorPane layoutX="-5.0" layoutY="82.0" prefHeight="232.0" prefWidth="608.0" style="-fx-background-color: #FAFAFA;">
+            <children>
+                <TextField fx:id="name" layoutX="55.0" layoutY="37.0" promptText="Имя" />
+                <TextField fx:id="fename" layoutX="55.0" layoutY="63.0" promptText="Фамилия" />
+                <TextField fx:id="second_name" layoutX="55.0" layoutY="89.0" promptText="Отчество" />
+                <TextField fx:id="group" layoutX="55.0" layoutY="115.0" promptText="Номер группы" />
+                <TextField fx:id="score" layoutX="55.0" layoutY="141.0" promptText="Средний балл за сессию" />
+                <Button fx:id="add" layoutX="383.0" layoutY="76.0" mnemonicParsing="false" style="-fx-background-color: #2E3348;" text="Добавить" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="36.0" layoutY="14.0" text="Добавление студента в базу" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="38.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
